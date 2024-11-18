@@ -1,5 +1,6 @@
 import Color from "./Color";
-// import  "./Color.css";
+import  "./ColorGrid.css";
+import "./Color.css";
 
 export default function ColorGrid({color}){
   const boxes=[];
@@ -7,7 +8,7 @@ export default function ColorGrid({color}){
     boxes.push(<Color color={color}/>);
   }
   return(
-    <div className="Color">
+    <div className="ColorGrid">
      {boxes} 
     </div>
   )
