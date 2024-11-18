@@ -9,14 +9,11 @@ export default function ShoppingListForm({addItem}){
             }
         })
     }
-
     const handleSubmit = (e) =>{
         e.preventDefault();
         addItem(formData);
         setFormData({product:"",quantity:0})
     }
-
-
     return(
         <form style={{placeContent:"center",height: "100vh"}}>
             <label for="Product">Product</label>

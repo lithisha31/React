@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function(){
+export default function BetterForm(){
     const[username,setUsername]=useState({firstName:"",lastName:"",password:""});
     const changeName = (e) => {
         const changedField = e.target.name;
@@ -12,6 +12,7 @@ export default function(){
     }
     const handleSubmit = () => {
         console.log(username)
+        
     }
     return(
         <div style={{placeContent:"center",height: "100vh"}}>
