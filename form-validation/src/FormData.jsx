@@ -1,6 +1,5 @@
 import { useForm } from "react-hook-form";
 
-
 export default function FormData(){
     const{register,handleSubmit,watch,formState:{ error }} = useForm();
     const registerOptions = {

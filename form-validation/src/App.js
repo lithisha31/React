@@ -7,6 +7,8 @@ import QuoteFetcher from './QuoteFetcher';
 function App() {
   return (
     <div className="App">
+      {/* <FormData /> */}
+      {/* <Counter /> */}
       <QuoteFetcher/>
     </div>
   );
