@@ -8,8 +8,6 @@ function d6(){
     return Math.floor(Math.random()*6) + 1
 }
 
-
-
 export default function Lucky7({num}){
     const[arr,setArr] = useState(getRolls(num))
     console.log(arr)
